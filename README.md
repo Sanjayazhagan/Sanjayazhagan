@@ -1,4 +1,4 @@
-# Hi there, I'm Sanjay 👋
+# Hi there, I'm Sanjay
 
 A passionate **Software Engineer** and **B.Tech Computer Science student at IIITDM Kancheepuram** (Class of 2028), currently working as a **Full Stack Developer Intern at Montra Electric**. I specialize in building scalable microservices, intelligent full-stack applications, and AI-driven tools. My current focus is engineering a high-performance alternative to Harvey AI, which I've renamed VeriLaw, designed for enterprise privacy.
 
