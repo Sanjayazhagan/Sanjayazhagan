@@ -75,4 +75,4 @@ This project represents a complete, scalable alternative to Harvey AI, engineere
 
 ### 📫 Let's Connect!
 [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />](https://www.linkedin.com/in/sanjay-azhagan-85a8622a6)
-[<img src="https://img.shields.io/badge/Portfolio-255E63?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio" />](https://your-website-link.com)
+[<img src="https://img.shields.io/badge/Portfolio-255E63?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio" />](https://sanjayazhagan.tech)
