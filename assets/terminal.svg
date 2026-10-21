@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="400" viewBox="0 0 900 400" role="img" aria-label="Terminal: whoami, current research, experience and achievements">
+  <title>About Sanjay</title>
+  <style>
+    .win { fill: #0d1117; stroke: #30363d; stroke-width: 1.5; }
+    .bar { fill: #161b22; }
+    .title { font: 500 13px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #8b949e; }
+    .ps { font: 700 17px 'JetBrains Mono', 'Cascadia Code', Consolas, 'DejaVu Sans Mono', 'Courier New', monospace; fill: #7ee7c7; }
+    .path { font: 700 17px 'JetBrains Mono', 'Cascadia Code', Consolas, 'DejaVu Sans Mono', 'Courier New', monospace; fill: #79c0ff; }
+    .ps2 { font: 700 17px 'JetBrains Mono', 'Cascadia Code', Consolas, 'DejaVu Sans Mono', 'Courier New', monospace; fill: #c9d1d9; }
+    .cmd { font: 500 17px 'JetBrains Mono', 'Cascadia Code', Consolas, 'DejaVu Sans Mono', 'Courier New', monospace; fill: #ffffff; }
+    .out { font: 400 16px 'JetBrains Mono', 'Cascadia Code', Consolas, 'DejaVu Sans Mono', 'Courier New', monospace; fill: #a5b4c6; white-space: pre; }
+    .blink { fill: #7ee7c7; animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
+  <rect x="1" y="1" width="898" height="398" rx="12" class="win"/>
+  <path d="M1 13 a12 12 0 0 1 12 -12 h874 a12 12 0 0 1 12 12 v25 h-898 z" class="bar"/>
+  <circle cx="24" cy="20" r="6" fill="#ff5f57"/><circle cx="44" cy="20" r="6" fill="#febc2e"/><circle cx="64" cy="20" r="6" fill="#28c840"/>
+  <text x="450.0" y="25" text-anchor="middle" class="title">sanjay@iiitdm: ~</text>
+    <g opacity="0"><animate attributeName="opacity" dur="18.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.0333;0.9333;1" values="0;1;0;0"/>
+      <text x="34" y="84" textLength="163" lengthAdjust="spacingAndGlyphs"><tspan class="ps">sanjay@iiitdm</tspan><tspan class="ps2">:</tspan><tspan class="path">~</tspan><tspan class="ps2">$</tspan></text>
+      <clipPath id="c0"><rect x="209" y="66" height="26" width="0">
+        <animate attributeName="width" dur="18.0s" repeatCount="indefinite" keyTimes="0;0.0333;0.0778;1" values="0;0;61;61"/></rect></clipPath>
+      <text x="209" y="84" class="cmd" clip-path="url(#c0)" textLength="61" lengthAdjust="spacingAndGlyphs">whoami</text>
+    </g>
+    <text x="34" y="115" class="out" opacity="0" xml:space="preserve"><animate attributeName="opacity" dur="18.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.0889;0.9333;1" values="0;1;0;0"/>Sanjay Azhagan · B.Tech CSE, IIITDM Kancheepuram (2028)</text>
+    <g opacity="0"><animate attributeName="opacity" dur="18.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.1444;0.9333;1" values="0;1;0;0"/>
+      <text x="34" y="156" textLength="163" lengthAdjust="spacingAndGlyphs"><tspan class="ps">sanjay@iiitdm</tspan><tspan class="ps2">:</tspan><tspan class="path">~</tspan><tspan class="ps2">$</tspan></text>
+      <clipPath id="c2"><rect x="209" y="138" height="26" width="0">
+        <animate attributeName="width" dur="18.0s" repeatCount="indefinite" keyTimes="0;0.1444;0.1889;1" values="0;0;102;102"/></rect></clipPath>
+      <text x="209" y="156" class="cmd" clip-path="url(#c2)" textLength="102" lengthAdjust="spacingAndGlyphs">cat now.md</text>
+    </g>
+    <text x="34" y="187" class="out" opacity="0" xml:space="preserve"><animate attributeName="opacity" dur="18.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.2056;0.9333;1" values="0;1;0;0"/>Researching adversarial AI agents for automated game testing</text>
+    <g opacity="0"><animate attributeName="opacity" dur="18.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.2611;0.9333;1" values="0;1;0;0"/>
+      <text x="34" y="228" textLength="163" lengthAdjust="spacingAndGlyphs"><tspan class="ps">sanjay@iiitdm</tspan><tspan class="ps2">:</tspan><tspan class="path">~</tspan><tspan class="ps2">$</tspan></text>
+      <clipPath id="c4"><rect x="209" y="210" height="26" width="0">
+        <animate attributeName="width" dur="18.0s" repeatCount="indefinite" keyTimes="0;0.2611;0.3056;1" values="0;0;143;143"/></rect></clipPath>
+      <text x="209" y="228" class="cmd" clip-path="url(#c4)" textLength="143" lengthAdjust="spacingAndGlyphs">ls experience/</text>
+    </g>
+    <text x="34" y="259" class="out" opacity="0" xml:space="preserve"><animate attributeName="opacity" dur="18.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.3278;0.9333;1" values="0;1;0;0"/>montra-electric/  SWE Intern, AI Systems   dm8/  Full-Stack Intern</text>
+    <g opacity="0"><animate attributeName="opacity" dur="18.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.3833;0.9333;1" values="0;1;0;0"/>
+      <text x="34" y="300" textLength="163" lengthAdjust="spacingAndGlyphs"><tspan class="ps">sanjay@iiitdm</tspan><tspan class="ps2">:</tspan><tspan class="path">~</tspan><tspan class="ps2">$</tspan></text>
+      <clipPath id="c6"><rect x="209" y="282" height="26" width="0">
+        <animate attributeName="width" dur="18.0s" repeatCount="indefinite" keyTimes="0;0.3833;0.4278;1" values="0;0;143;143"/></rect></clipPath>
+      <text x="209" y="300" class="cmd" clip-path="url(#c6)" textLength="143" lengthAdjust="spacingAndGlyphs">./wins --top 3</text>
+    </g>
+    <text x="34" y="331" class="out" opacity="0" xml:space="preserve"><animate attributeName="opacity" dur="18.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.4500;0.9333;1" values="0;1;0;0"/>SIH finalist '25 '26  ·  ICPC Asia West '26  ·  170+ CP problems</text>
+    <g opacity="0"><animate attributeName="opacity" dur="18.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.5000;0.9333;1" values="0;1;0;0"/>
+      <text x="34" y="372" textLength="163" lengthAdjust="spacingAndGlyphs"><tspan class="ps">sanjay@iiitdm</tspan><tspan class="ps2">:</tspan><tspan class="path">~</tspan><tspan class="ps2">$</tspan></text>
+      <rect x="210" y="357" width="10" height="19" class="blink"/>
+    </g>
+</svg>

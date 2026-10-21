@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Sanjay Azhagan, AI systems and full-stack engineer">
+  <title>Sanjay Azhagan</title>
+  <style>
+    .name { font: 700 64px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #ffffff; letter-spacing: 1px; opacity: 0; animation: rise 1s ease-out .2s forwards; }
+    .sub  { font: 400 20px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #c9d1d9; opacity: 0; animation: rise 1s ease-out .7s forwards; }
+    .prompt { font: 700 26px 'JetBrains Mono', 'Cascadia Code', Consolas, 'DejaVu Sans Mono', 'Courier New', monospace; fill: #7ee7c7; opacity: 0; animation: rise .8s ease-out 1s forwards; }
+    .typed { font: 500 26px 'JetBrains Mono', 'Cascadia Code', Consolas, 'DejaVu Sans Mono', 'Courier New', monospace; fill: #7ee7c7; }
+    .cursor { fill: #7ee7c7; }
+    .edge { stroke: #ffffff; stroke-opacity: .10; stroke-width: 1.2; }
+    .sig { stroke: #7ee7c7; stroke-width: 2.2; stroke-linecap: round; stroke-dasharray: 10 400; stroke-dashoffset: 410; animation: flow 4s linear infinite; }
+    .node { fill: #0d1b3e; stroke: #7ee7c7; stroke-width: 2; animation: pulse 3s ease-in-out infinite; }
+    .dot { fill: #ffffff; opacity: .05; }
+    @keyframes rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes flow { 0% { stroke-dashoffset: 410; } 60%,100% { stroke-dashoffset: 0; } }
+    @keyframes pulse { 0%,100% { fill: #0d1b3e; } 50% { fill: #7ee7c7; } }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1d3a"><animate attributeName="stop-color" values="#0b1d3a;#1a1446;#0b2b3a;#0b1d3a" dur="14s" repeatCount="indefinite"/></stop>
+      <stop offset="100%" stop-color="#1f3864"><animate attributeName="stop-color" values="#1f3864;#0f4c5c;#3a1f64;#1f3864" dur="14s" repeatCount="indefinite"/></stop>
+    </linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.5" class="dot"/></pattern>
+    <clipPath id="frame"><rect width="1200" height="320" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#dots)"/>
+    <g><line x1="820" y1="114" x2="920" y2="68" class="edge"/><line x1="820" y1="114" x2="920" y2="114" class="edge"/><line x1="820" y1="114" x2="920" y2="160" class="edge"/><line x1="820" y1="114" x2="920" y2="206" class="edge"/><line x1="820" y1="114" x2="920" y2="252" class="edge"/><line x1="820" y1="160" x2="920" y2="68" class="edge"/><line x1="820" y1="160" x2="920" y2="114" class="edge"/><line x1="820" y1="160" x2="920" y2="160" class="edge"/><line x1="820" y1="160" x2="920" y2="206" class="edge"/><line x1="820" y1="160" x2="920" y2="252" class="edge"/><line x1="820" y1="206" x2="920" y2="68" class="edge"/><line x1="820" y1="206" x2="920" y2="114" class="edge"/><line x1="820" y1="206" x2="920" y2="160" class="edge"/><line x1="820" y1="206" x2="920" y2="206" class="edge"/><line x1="820" y1="206" x2="920" y2="252" class="edge"/><line x1="920" y1="68" x2="1020" y2="68" class="edge"/><line x1="920" y1="68" x2="1020" y2="114" class="edge"/><line x1="920" y1="68" x2="1020" y2="160" class="edge"/><line x1="920" y1="68" x2="1020" y2="206" class="edge"/><line x1="920" y1="68" x2="1020" y2="252" class="edge"/><line x1="920" y1="114" x2="1020" y2="68" class="edge"/><line x1="920" y1="114" x2="1020" y2="114" class="edge"/><line x1="920" y1="114" x2="1020" y2="160" class="edge"/><line x1="920" y1="114" x2="1020" y2="206" class="edge"/><line x1="920" y1="114" x2="1020" y2="252" class="edge"/><line x1="920" y1="160" x2="1020" y2="68" class="edge"/><line x1="920" y1="160" x2="1020" y2="114" class="edge"/><line x1="920" y1="160" x2="1020" y2="160" class="edge"/><line x1="920" y1="160" x2="1020" y2="206" class="edge"/><line x1="920" y1="160" x2="1020" y2="252" class="edge"/><line x1="920" y1="206" x2="1020" y2="68" class="edge"/><line x1="920" y1="206" x2="1020" y2="114" class="edge"/><line x1="920" y1="206" x2="1020" y2="160" class="edge"/><line x1="920" y1="206" x2="1020" y2="206" class="edge"/><line x1="920" y1="206" x2="1020" y2="252" class="edge"/><line x1="920" y1="252" x2="1020" y2="68" class="edge"/><line x1="920" y1="252" x2="1020" y2="114" class="edge"/><line x1="920" y1="252" x2="1020" y2="160" class="edge"/><line x1="920" y1="252" x2="1020" y2="206" class="edge"/><line x1="920" y1="252" x2="1020" y2="252" class="edge"/><line x1="1020" y1="68" x2="1120" y2="137" class="edge"/><line x1="1020" y1="68" x2="1120" y2="183" class="edge"/><line x1="1020" y1="114" x2="1120" y2="137" class="edge"/><line x1="1020" y1="114" x2="1120" y2="183" class="edge"/><line x1="1020" y1="160" x2="1120" y2="137" class="edge"/><line x1="1020" y1="160" x2="1120" y2="183" class="edge"/><line x1="1020" y1="206" x2="1120" y2="137" class="edge"/><line x1="1020" y1="206" x2="1120" y2="183" class="edge"/><line x1="1020" y1="252" x2="1120" y2="137" class="edge"/><line x1="1020" y1="252" x2="1120" y2="183" class="edge"/><line x1="820" y1="114" x2="920" y2="68" class="sig" style="animation-delay:0.60s"/><line x1="820" y1="114" x2="920" y2="160" class="sig" style="animation-delay:2.14s"/><line x1="820" y1="114" x2="920" y2="206" class="sig" style="animation-delay:0.23s"/><line x1="820" y1="160" x2="920" y2="68" class="sig" style="animation-delay:1.73s"/><line x1="820" y1="160" x2="920" y2="114" class="sig" style="animation-delay:0.36s"/><line x1="820" y1="160" x2="920" y2="160" class="sig" style="animation-delay:3.31s"/><line x1="820" y1="160" x2="920" y2="206" class="sig" style="animation-delay:0.89s"/><line x1="820" y1="206" x2="920" y2="160" class="sig" style="animation-delay:3.91s"/><line x1="820" y1="206" x2="920" y2="206" class="sig" style="animation-delay:3.43s"/><line x1="820" y1="206" x2="920" y2="252" class="sig" style="animation-delay:0.58s"/><line x1="920" y1="68" x2="1020" y2="68" class="sig" style="animation-delay:1.23s"/><line x1="920" y1="68" x2="1020" y2="160" class="sig" style="animation-delay:2.33s"/><line x1="920" y1="68" x2="1020" y2="252" class="sig" style="animation-delay:2.19s"/><line x1="920" y1="114" x2="1020" y2="68" class="sig" style="animation-delay:0.24s"/><line x1="920" y1="114" x2="1020" y2="114" class="sig" style="animation-delay:2.72s"/><line x1="920" y1="114" x2="1020" y2="160" class="sig" style="animation-delay:1.26s"/><line x1="920" y1="160" x2="1020" y2="68" class="sig" style="animation-delay:3.18s"/><line x1="920" y1="160" x2="1020" y2="160" class="sig" style="animation-delay:2.30s"/><line x1="920" y1="206" x2="1020" y2="114" class="sig" style="animation-delay:3.92s"/><line x1="920" y1="206" x2="1020" y2="160" class="sig" style="animation-delay:1.67s"/><line x1="920" y1="206" x2="1020" y2="252" class="sig" style="animation-delay:1.96s"/><line x1="920" y1="252" x2="1020" y2="68" class="sig" style="animation-delay:2.67s"/><line x1="920" y1="252" x2="1020" y2="252" class="sig" style="animation-delay:2.78s"/><line x1="1020" y1="206" x2="1120" y2="183" class="sig" style="animation-delay:2.81s"/><circle cx="820" cy="114" r="7" class="node" style="animation-delay:0.00s"/><circle cx="820" cy="160" r="7" class="node" style="animation-delay:0.37s"/><circle cx="820" cy="206" r="7" class="node" style="animation-delay:0.74s"/><circle cx="920" cy="68" r="7" class="node" style="animation-delay:1.11s"/><circle cx="920" cy="114" r="7" class="node" style="animation-delay:1.48s"/><circle cx="920" cy="160" r="7" class="node" style="animation-delay:1.85s"/><circle cx="920" cy="206" r="7" class="node" style="animation-delay:2.22s"/><circle cx="920" cy="252" r="7" class="node" style="animation-delay:2.59s"/><circle cx="1020" cy="68" r="7" class="node" style="animation-delay:2.96s"/><circle cx="1020" cy="114" r="7" class="node" style="animation-delay:0.33s"/><circle cx="1020" cy="160" r="7" class="node" style="animation-delay:0.70s"/><circle cx="1020" cy="206" r="7" class="node" style="animation-delay:1.07s"/><circle cx="1020" cy="252" r="7" class="node" style="animation-delay:1.44s"/><circle cx="1120" cy="137" r="7" class="node" style="animation-delay:1.81s"/><circle cx="1120" cy="183" r="7" class="node" style="animation-delay:2.18s"/></g>
+    <text x="70" y="128" class="name">Sanjay Azhagan</text>
+    <text x="72" y="166" class="sub">B.Tech CSE · IIITDM Kancheepuram · Class of 2028</text>
+    <text x="70" y="206" class="prompt">&gt;</text>
+    <clipPath id="tc0"><rect x="104" y="176" height="42" width="0">
+      <animate attributeName="width" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.0813;0.2000;0.2313;1" values="0;296;296;0;0"/>
+    </rect></clipPath>
+    <text x="104" y="206" clip-path="url(#tc0)" class="typed" textLength="296" lengthAdjust="spacingAndGlyphs">AI systems engineer</text>
+    <rect class="cursor" y="182" width="3" height="30" x="104" opacity="0">
+      <animate attributeName="x" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.0813;0.2000;0.2313;1" values="104;400;400;104;104"/>
+      <animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.2406;0.2407;1" values="1;1;0;0"/>
+    </rect>
+    <clipPath id="tc1"><rect x="104" y="176" height="42" width="0">
+      <animate attributeName="width" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.2500;0.3312;0.4500;0.4813;1" values="0;0;686;686;0;0"/>
+    </rect></clipPath>
+    <text x="104" y="206" clip-path="url(#tc1)" class="typed" textLength="686" lengthAdjust="spacingAndGlyphs">reinforcement learning, from scratch in Rust</text>
+    <rect class="cursor" y="182" width="3" height="30" x="104" opacity="0">
+      <animate attributeName="x" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.2500;0.3312;0.4500;0.4813;1" values="104;104;790;790;104;104"/>
+      <animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.2500;0.2501;0.4906;0.4907;1" values="0;0;1;1;0;0"/>
+    </rect>
+    <clipPath id="tc2"><rect x="104" y="176" height="42" width="0">
+      <animate attributeName="width" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.5000;0.5813;0.7000;0.7312;1" values="0;0;421;421;0;0"/>
+    </rect></clipPath>
+    <text x="104" y="206" clip-path="url(#tc2)" class="typed" textLength="421" lengthAdjust="spacingAndGlyphs">privacy-first LLM pipelines</text>
+    <rect class="cursor" y="182" width="3" height="30" x="104" opacity="0">
+      <animate attributeName="x" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.5000;0.5813;0.7000;0.7312;1" values="104;104;525;525;104;104"/>
+      <animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.5000;0.5001;0.7406;0.7407;1" values="0;0;1;1;0;0"/>
+    </rect>
+    <clipPath id="tc3"><rect x="104" y="176" height="42" width="0">
+      <animate attributeName="width" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.7500;0.8313;0.9500;0.9812;1" values="0;0;452;452;0;0"/>
+    </rect></clipPath>
+    <text x="104" y="206" clip-path="url(#tc3)" class="typed" textLength="452" lengthAdjust="spacingAndGlyphs">full-stack products that ship</text>
+    <rect class="cursor" y="182" width="3" height="30" x="104" opacity="0">
+      <animate attributeName="x" dur="16.0s" repeatCount="indefinite" keyTimes="0;0.7500;0.8313;0.9500;0.9812;1" values="104;104;556;556;104;104"/>
+      <animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.7500;0.7501;0.9906;0.9907;1" values="0;0;1;1;0;0"/>
+    </rect>
+    <text x="72" y="268" class="sub" style="font-size:17px;fill:#8b98a9">AI Systems Intern @ Montra Electric  ·  Full-Stack Intern @ DM8  ·  SIH finalist 2025, 2026</text>
+  </g>
+</svg>

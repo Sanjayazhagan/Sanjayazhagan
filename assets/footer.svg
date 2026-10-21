@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="140" viewBox="0 0 1200 140" role="img" aria-label="Thanks for visiting">
+  <style>
+    .w1 { fill: #1f3864; opacity: .55; animation: drift 10s linear infinite; }
+    .w2 { fill: #0f4c5c; opacity: .65; animation: drift 7s linear infinite reverse; }
+    .w3 { fill: #0b1d3a; animation: drift 13s linear infinite; }
+    .t  { font: 500 18px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #c9d1d9; letter-spacing: 2px; }
+    @keyframes drift { from { transform: translateX(0); } to { transform: translateX(-600px); } }
+  </style>
+  <path class="w1" d="M0 60 q 150.0 -14 300.0 0 q 150.0 14 300.0 0 q 150.0 -14 300.0 0 q 150.0 14 300.0 0 q 150.0 -14 300.0 0 q 150.0 14 300.0 0 q 150.0 -14 300.0 0 q 150.0 14 300.0 0 V140 H0 Z"/>
+  <path class="w2" d="M0 76 q 150.0 -10 300.0 0 q 150.0 10 300.0 0 q 150.0 -10 300.0 0 q 150.0 10 300.0 0 q 150.0 -10 300.0 0 q 150.0 10 300.0 0 q 150.0 -10 300.0 0 q 150.0 10 300.0 0 V140 H0 Z"/>
+  <path class="w3" d="M0 92 q 150.0 -8 300.0 0 q 150.0 8 300.0 0 q 150.0 -8 300.0 0 q 150.0 8 300.0 0 q 150.0 -8 300.0 0 q 150.0 8 300.0 0 q 150.0 -8 300.0 0 q 150.0 8 300.0 0 V140 H0 Z"/>
+  <text x="600" y="126" text-anchor="middle" class="t">THANKS FOR VISITING</text>
+</svg>
